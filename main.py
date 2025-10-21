@@ -4,11 +4,11 @@ digit =0
 space = 0
 other = 0	
 for c in s:
- if c.is alpha():
+ if c.isalpha():
   letter += 1
- elif c.is digit():
+ elif c.isdigit():
   digit += 1
- elif c.is space():
+ elif c.isspace():
   space += 1
  else:
   other += 1
